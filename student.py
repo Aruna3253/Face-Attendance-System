@@ -334,7 +334,7 @@ class Student:
            messagebox.showerror("Error",f"Due To:{str(es)}",parent=self.root)
     #fetching data from database to our right frame
     def fetch_data(self):
-       conn=mysql.connector.connect(host="localhost",username="root",password="Arun@poi098",database="face_recognizer")
+       conn=mysql.connector.connect(host="localhost",username="root",password="",database="face_recognizer")
        my_cursor=conn.cursor()
        my_cursor.execute("select * from student")
        data=my_cursor.fetchall()
