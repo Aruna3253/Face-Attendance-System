@@ -1,5 +1,5 @@
 # Face-Attendance-System
-This project is an advanced face recognition system designed to automate student attendance. It utilizes Python's OpenCV library for real-time face detection and recognition, streamlining the process of recording attendance in educational settings.
+This project is an advanced face recognition system designed to automate student attendance. It utilizes Python's OpenCV library for real-time face detection and recognition, streamlining the process of recording attendance in educational settings.And is implemented in Tkinter.
 
 Features
 User Authentication: Secure login system with username and password protection.
